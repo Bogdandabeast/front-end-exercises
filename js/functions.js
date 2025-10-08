@@ -10,7 +10,7 @@ return (user.nationality != country && user.age == validAge) ? successMessage : 
 
 function userName(user) {
   const template = "Me llamo";
-  return `${template} ${user.nombre} ${user.apellido}`;
+  return `${template} ${user.name} ${user.last}`;
 }
 
 

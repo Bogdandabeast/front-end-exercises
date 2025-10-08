@@ -1,7 +1,7 @@
-var user = {
-  nombre: "Pedro",
-  apellido: "Sánchez",
-  edad: 45,
+const user = {
+  name: "Pedro",
+  last: "Sánchez",
+  age: 45,
   profesion: "Barro man",
 };
 
