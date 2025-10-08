@@ -4,7 +4,7 @@ function isForeigner(user) {
  const successMessage = "Apto para la ayuda del gobierno";
  const errorMessage = "No es apto para la ayuda del gobierno";
 
-return (user.nationality != country && user.age == validAge) ? successMessage : errorMessage 
+return (user.nationality !== country && user.age === validAge) ? successMessage : errorMessage 
 }
 
 
