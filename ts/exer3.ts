@@ -46,7 +46,7 @@ const dog: Dog = {
 };
 
 const cat: Cat = {
-    name: 'Caty',
+    name: 'Katusha',
     color: 'black',
     canSleep: true
 };
