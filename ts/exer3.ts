@@ -1,4 +1,3 @@
-
 interface Animal {
     name: string;
     canEat: boolean;

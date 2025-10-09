@@ -1,4 +1,3 @@
-
 interface Animal {
     name: string;
     canEat: boolean;
@@ -28,6 +27,6 @@ const dog: Dog = {
     canEat: true,
     canDrink: true,
     canSleep: true,
-    race: 'some-race',
+    race: 'Sanchez',
     age: 1
 };
