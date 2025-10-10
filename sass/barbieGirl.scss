@@ -1,0 +1,32 @@
+$base-color : #c6538c;
+$warning-color : #ffad64;
+$success-color : #b9de51;
+
+@function calcBorderDark($color) {
+    @return rgba($color,0.88);
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50em;
+
+}
+
+.alert {
+    border: 1em solid calcBorderDark($base-color);
+}
+
+.warning {
+    border: 1em solid calcBorderDark($warning-color);
+}
+
+.success {
+    border: 1em solid calcBorderDark($success-color);
+}
+
+.flexMixin {
+    @include flex;
+}
+
+
