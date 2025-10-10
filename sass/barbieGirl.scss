@@ -13,19 +13,19 @@ $success-color : #b9de51;
 
 }
 
-.alert {
+.card__title--alert {
     border: 1em solid calcBorderDark($base-color);
 }
 
-.warning {
+.card__title--warning {
     border: 1em solid calcBorderDark($warning-color);
 }
 
-.success {
+.card__title--success {
     border: 1em solid calcBorderDark($success-color);
 }
 
-.flexMixin {
+.footer__navbar--flex {
     @include flex;
 }
 
