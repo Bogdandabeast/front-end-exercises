@@ -1,0 +1,32 @@
+$base-color : #c6538c;
+$warning-color : #ffad64;
+$success-color : #b9de51;
+
+@function calcBorderDark($color) {
+    @return rgba($color,0.88);
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50em;
+
+}
+
+.card__title--alert {
+    border: 1em solid calcBorderDark($base-color);
+}
+
+.card__title--warning {
+    border: 1em solid calcBorderDark($warning-color);
+}
+
+.card__title--success {
+    border: 1em solid calcBorderDark($success-color);
+}
+
+.footer__navbar--flex {
+    @include flex;
+}
+
+

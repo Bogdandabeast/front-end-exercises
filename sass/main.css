@@ -1,0 +1,19 @@
+.card__title--alert {
+  border: 1em solid rgba(198, 83, 140, 0.88);
+}
+
+.card__title--warning {
+  border: 1em solid rgba(255, 173, 100, 0.88);
+}
+
+.card__title--success {
+  border: 1em solid rgba(185, 222, 81, 0.88);
+}
+
+.footer__navbar--flex {
+  display: flex;
+  justify-content: space-around;
+  max-width: 50em;
+}
+
+/*# sourceMappingURL=main.css.map */
